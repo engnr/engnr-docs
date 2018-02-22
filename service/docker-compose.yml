@@ -2,8 +2,8 @@ version: "3.2"
 
 services:
   docs:
-    build: service
+    build: .
     image: docs
     container_name: docs
     volumes:
-      - ..:/home
+      - ../..:/home
